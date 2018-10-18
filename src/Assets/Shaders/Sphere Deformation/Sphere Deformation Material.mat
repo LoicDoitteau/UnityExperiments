@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sphere Deformation Material
+  m_Shader: {fileID: 4800000, guid: e8e8a6ed7d21c214e9ef4ccc115cf529, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_69511D65_Texture:
+        m_Texture: {fileID: 2800000, guid: 637e775ee605e994194202d2af78ecc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7D147C15_Texture:
+        m_Texture: {fileID: 2800000, guid: 5e1c8a6adf3dfcd4a9092ea10c385da5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_85237A01_Texture:
+        m_Texture: {fileID: 2800000, guid: abdf7b3692d9c9841a1f6504748ff557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8EC0E2AA_Texture:
+        m_Texture: {fileID: 2800000, guid: 1fe8ccbac6bbf2a44aa63e3b0714dd5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ECEBCDAF_Texture:
+        m_Texture: {fileID: 2800000, guid: bbf852f718da89548a462421dbfc90a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_72989210: 0.4
+    - Vector1_81972B47: 0.5
+    - Vector1_A2197C96: 0.7
+    - Vector1_B9BD1999: 0.3
+    m_Colors:
+    - Vector2_83FACE9F: {r: 0.8, g: 1.2, b: 0, a: 0}

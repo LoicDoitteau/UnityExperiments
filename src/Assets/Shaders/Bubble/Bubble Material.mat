@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Bubble Material
+  m_Shader: {fileID: 4800000, guid: 16de0f7aff134cc418546922476be922, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_95686B34:
+        m_Texture: {fileID: 2800000, guid: 84637c93f09971a47944172360cbba9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_69511D65_Texture:
+        m_Texture: {fileID: 2800000, guid: 637e775ee605e994194202d2af78ecc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_79C576A9_Texture:
+        m_Texture: {fileID: 2800000, guid: 84637c93f09971a47944172360cbba9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7D147C15_Texture:
+        m_Texture: {fileID: 2800000, guid: 5e1c8a6adf3dfcd4a9092ea10c385da5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_85237A01_Texture:
+        m_Texture: {fileID: 2800000, guid: abdf7b3692d9c9841a1f6504748ff557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8EC0E2AA_Texture:
+        m_Texture: {fileID: 2800000, guid: 1fe8ccbac6bbf2a44aa63e3b0714dd5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ECEBCDAF_Texture:
+        m_Texture: {fileID: 2800000, guid: bbf852f718da89548a462421dbfc90a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1469A8D1: 20
+    - Vector1_2BE72F3A: 0.05
+    - Vector1_311E837A: 0.5
+    - Vector1_72989210: 0.4
+    - Vector1_8009DC24: 10
+    - Vector1_81972B47: 0.5
+    - Vector1_8C7140B3: 50
+    - Vector1_A2197C96: 0.7
+    - Vector1_B52E7292: 0.5
+    - Vector1_B9BD1999: 0.3
+    - Vector1_CBD63712: 1
+    - Vector1_FF5CD63E: 0.01
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _InvFade: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - Color_5F3D7398: {r: 0, g: 0, b: 0, a: 0}
+    - Color_64A989DE: {r: 0.454902, g: 0.9709494, b: 2.996078, a: 0}
+    - Color_9C31FB0F: {r: 0.32640538, g: 0.06621571, b: 0.45283014, a: 0}
+    - Color_F5CC5E83: {r: 1, g: 0.40982428, b: 0.01415092, a: 0}
+    - Color_FD22220B: {r: 1, g: 1, b: 1, a: 0}
+    - Vector2_83FACE9F: {r: 0.8, g: 1.2, b: 0, a: 0}
+    - Vector3_57E09B86: {r: 1, g: 1, b: 1, a: 0}
+    - Vector3_DE875A58: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
