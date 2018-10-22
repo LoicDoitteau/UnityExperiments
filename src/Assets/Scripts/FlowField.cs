@@ -15,14 +15,10 @@ public class FlowField : MonoBehaviour
     private Particle[] particles;
     private float xOffset = 0;
 
-    private void Awake()
+    void Start()
     {
         chunkSize = size / resolution;
         field = new Vector3[resolution, resolution, resolution];
-        UpdateFlowField();
-    }
-    void Start()
-    {
 		particles = new Particle[ParticlesCount];
 		for (int i = 0; i < ParticlesCount; i++)
 		{
@@ -31,6 +27,7 @@ public class FlowField : MonoBehaviour
             particle.parent = transform;
        		particles[i] = new Particle(particle);
 		}
+        UpdateFlowField();
     }
 
     void Update()
